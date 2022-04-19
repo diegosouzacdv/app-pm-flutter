@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">http://api.pm.df.gov.br:8082</domain>
+        <domain includeSubdomains="true">10.2.0.105:8082</domain>
+        <domain includeSubdomains="true">10.2.0.105</domain>
+        <domain includeSubdomains="true">"http://api.pm.df.gov.br:8082"</domain>
+        <domain includeSubdomains="true">"10.2.0.105"</domain>
+        <domain includeSubdomains="true">"10.2.0.105:8082"</domain>
+        <domain includeSubdomains="true">http://api.pm.df.gov.br</domain>
+        <domain includeSubdomains="true">"http://api.pm.df.gov.br"</domain>
+    </domain-config>
+</network-security-config>
